@@ -8,6 +8,8 @@
 
 ### Mobile version Screenshot:
 ![Screen Shot 2022-02-09 at 14 50 34](https://user-images.githubusercontent.com/88894525/153207280-5f162553-1fd9-4f4b-9a71-8a84ef6dcad0.png)
+
+
 The objectives of this project is to:
 
 - Understand how to parse a Figma design to create a UI.
