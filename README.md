@@ -7,8 +7,9 @@
 ## Description
 
 ### Mobile version Screenshot:
+![Screen Shot 2022-02-09 at 14 50 34](https://user-images.githubusercontent.com/88894525/153207280-5f162553-1fd9-4f4b-9a71-8a84ef6dcad0.png)
 
-![screenshot](Screen Shot 2022-02-09 at 14.50.34)
+
 The objectives of this project is to:
 
 - Understand how to parse a Figma design to create a UI.
@@ -47,9 +48,9 @@ To clone the repository run the command `git clone https://github.com/Alfredbis2
 
 👤 **Alfredbis29**
 
-- GitHub: [@cynthiainga](https://github.com/Alfredbis29)
-- Twitter: [@CynthiaInga_C](https://twitter.com/AlfredBisimwa1)
-- LinkedIn: [Cynthia Inga](https://www.linkedin.com/in/alfred-bisimwa-0501a81a8/)
+- GitHub: [https://github.com/Alfredbis29](https://github.com/Alfredbis29)
+- Twitter: [https://twitter.com/AlfredBisimwa1](https://twitter.com/AlfredBisimwa1)
+- LinkedIn: [https://www.linkedin.com/in/alfred-bisimwa-0501a81a8](https://www.linkedin.com/in/alfred-bisimwa-0501a81a8/)
 
 ## Show your support
 
