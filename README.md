@@ -42,7 +42,7 @@ The objectives of this project is to:
 - CSS
 - CSS Flexbox
 - Float
-- Grid
+- CSS Grid
 
 ## Live Demo
 
