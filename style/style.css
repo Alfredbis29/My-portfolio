@@ -1057,6 +1057,13 @@ li {
 
 .forms {
   background-color: #2230d2;
-  text-align: center;
+  /* text-align: center; */
   color: white;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+.forms h1 {
+  width: 801px;
+  height: 56px;
+  text-align: center;
+  color: black;
 }
