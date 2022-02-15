@@ -7,12 +7,15 @@
 ## Description
 
 ### Mobile version Screenshot:
+
 ![Screen Shot 2022-02-09 at 14 50 34](https://user-images.githubusercontent.com/88894525/153207280-5f162553-1fd9-4f4b-9a71-8a84ef6dcad0.png)
 
-### About me 
+### About me
+
 ![Screen Shot 2022-02-15 at 12 05 53](https://user-images.githubusercontent.com/88894525/154039941-3015333f-9762-4a2a-aa83-03d95003f908.png)
 
 ### My Projects
+
 ![Screen Shot 2022-02-15 at 12 06 13](https://user-images.githubusercontent.com/88894525/154040119-218cee8b-a5b8-42e9-9d51-0625aef975a1.png)
 
 ![Screen Shot 2022-02-15 at 12 06 08](https://user-images.githubusercontent.com/88894525/154040254-3d86a4a9-e75e-4bc8-b1b3-fd44a4027cf8.png)
@@ -22,7 +25,6 @@
 ### Form Contact Mobile Version:
 
 ![Screen Shot 2022-02-15 at 12 05 35](https://user-images.githubusercontent.com/88894525/154040460-cc1e8cd0-2019-44ab-acb0-f244de3fe163.png)
-
 
 The objectives of this project is to:
 
@@ -39,6 +41,8 @@ The objectives of this project is to:
 - HTML
 - CSS
 - CSS Flexbox
+- Float
+- Grid
 
 ## Live Demo
 
