@@ -1054,15 +1054,3 @@ li {
     display: none;
   }
 }
-
-.forms {
-  background-color: #2230d2;
-  color: white;
-}
-/* stylelint-disable-next-line rule-empty-line-before */
-.forms h1 {
-  width: 801px;
-  height: 56px;
-  text-align: center;
-  color: black;
-}
