@@ -286,24 +286,39 @@
 		</div>
 		<div class="bar"></div>
 	</div>
-	<section class="forms">
-		<h1>Contact Me</h1>
-		<p>If you have an application you are interested in developing,
-			a feature that you need built or a project that needs coding.
-			I’d love to help with it</p>
-		<form action="" method="">
-			<ul>
-				<li>
-					<input type="text" name="Name" placeholder="Name">
-				</li>
-				<li>
-					<input type="e-mail" id="mail" placeholder="kalumunabisimwa5@gmail.com">
-				</li>
-				<li>
-					<textarea name="" id="" cols="30" rows="10" placeholder="Type your message here"></textarea>
-				</li>
-			</ul>
-		</form>
+	<section id="contact" class="contact-section">
+		<div class="contact-main-container">
+			<h2 class="title_contact">Contact me</h2>
+			<p class="detail">
+				If you have an application you are interested in developing, a
+				feature that you need built or a project that needs coding. I’d love
+				to help with it
+			</p>
+			<form id="contact-form" action="https://formspree.io/f/mrgrkgvy" method="POST">
+				<ul class="form-group">
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" value="" maxlength="30" minlength="5" name="name"
+							placeholder="Name" required />
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" maxlength="30" minlength="5" value="" name="email"
+							placeholder="email" />
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea name="body" id="message" cols="30" maxlength="500" minlength="5" rows="10"
+							placeholder="Write your message here" required></textarea>
+					</li>
+					<li><small></small></li>
+					<li>
+						<button id="submit" class="btn" type="submit">Get In Touch</button>
+					</li>
+				</ul>
+			</form>
+			<div class="bar"></div>
+		</div>
 	</section>
 	<!-- This is my script -->
 	<script type="module" src="./js/script.js"></script>
