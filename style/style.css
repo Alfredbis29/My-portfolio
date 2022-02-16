@@ -305,7 +305,7 @@ li {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 85%;
+  width: 91%;
   border-radius: 16px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -959,7 +959,7 @@ li {
   .card-work {
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 91%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 2rem 2rem;
