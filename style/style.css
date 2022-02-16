@@ -239,7 +239,7 @@ li {
   height: calc(718px - 60px);
   background-image: url("../images/header-shapes.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
   border-bottom-left-radius: 5rem;
@@ -249,7 +249,7 @@ li {
 
 .headline h1 {
   width: 70%;
-  max-width: 300px;
+  max-width: 400px;
   font-size: 4rem;
   font-style: normal;
   font-weight: 700;
@@ -305,7 +305,7 @@ li {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 85%;
+  width: 91%;
   border-radius: 16px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -549,7 +549,7 @@ li {
   height: auto;
   background-image: url("../images/header-shapes.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 5rem;
@@ -775,8 +775,6 @@ li {
   color: rgb(255, 255, 255);
 }
 
-/* Media queries */
-
 @media screen and (min-width: 500px) {
   .card-work {
     width: 85%;
@@ -961,7 +959,7 @@ li {
   .card-work {
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 91%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 2rem 2rem;
