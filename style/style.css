@@ -775,7 +775,7 @@ li {
   color: rgb(255, 255, 255);
 }
 
-/* here i used media queries for reponsivenes */
+/* here i used media queries */
 
 @media screen and (min-width: 500px) {
   .card-work {
