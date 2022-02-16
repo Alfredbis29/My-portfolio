@@ -205,7 +205,7 @@
     display: block;
   }
 }
-
+/* add media quesries */
 @media screen and (min-width: 768px) {
   .card-popup-window .main-container .portfolio-img img {
     max-width: 90%;
