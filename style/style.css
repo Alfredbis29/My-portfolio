@@ -197,7 +197,7 @@ li {
   animation-name: rotate;
   animation-duration: 1.7s;
 }
- 
+
 @keyframes rotate {
   0% {
     transform: translateX(0);
