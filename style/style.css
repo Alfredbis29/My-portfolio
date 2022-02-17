@@ -198,6 +198,8 @@ li {
   animation-duration: 1.7s;
 }
 
+/* Add animation in logo*/
+
 @keyframes rotate {
   0% {
     transform: translateX(0);
