@@ -31,7 +31,7 @@ The objectives of this project is to:
 
 ## Live Demo
 
-[Portfolio Link](https://github.com/Alfredbis29/My-portfolio)
+[Portfolio Link](https://alfredbis29.github.io/My-portfolio/)
 
 ## Getting Started
 
