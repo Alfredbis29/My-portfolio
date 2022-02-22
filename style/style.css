@@ -237,7 +237,7 @@ li {
 .headline {
   width: 100%;
   height: calc(718px - 60px);
-  background-image: url("../images/header-shapes.png");
+  background-image: url('../images/header-shapes.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@ li {
   margin-top: 2.4rem;
 }
 
-.social-media svg {
+.social-media img {
   margin-right: 1.8rem;
 }
 
@@ -472,7 +472,7 @@ li {
 
 .knowledges .knowledge .kn_1::after {
   position: absolute;
-  content: "";
+  content: '';
   bottom: 0;
   width: 100%;
   height: 1px;
@@ -547,7 +547,7 @@ li {
 .contact-main-container {
   width: 100%;
   height: auto;
-  background-image: url("../images/header-shapes.png");
+  background-image: url('../images/header-shapes.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -894,7 +894,7 @@ li {
 
 @media screen and (min-width: 768px) {
   .headline {
-    background-image: url("../images/header-desk-back.png");
+    background-image: url('../images/header-desk-back.png');
   }
 
   .card-work {
@@ -925,7 +925,7 @@ li {
   }
 
   .contact-main-container {
-    background-image: url("../images/contact-form-back.png");
+    background-image: url('../images/contact-form-back.png');
     padding-bottom: 5rem;
   }
 
@@ -965,7 +965,7 @@ li {
     padding: 2rem 2rem;
   }
 
-  .card-work:nth-child(2n+2) {
+  .card-work:nth-child(2n + 2) {
     flex-direction: row-reverse;
   }
 
