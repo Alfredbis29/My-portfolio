@@ -13,3 +13,15 @@ window.addEventListener("scroll", () => {
     header.classList.remove("shadow");
   }
 });
+
+function toggle() {
+  if (!isOpen) {
+    header.classList.add("open");
+    headline.classList.add("bur-effect");
+    isOpen = true;
+  } else {
+    header.classList.remove("open");
+    headline.classList.remove("bur-effect");
+    isOpen = false;
+  }
+}
