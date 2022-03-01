@@ -14,6 +14,11 @@ const data = [
     detail:
       "AlfaCamp is not simply a series of unconnected stories, but is in fact a movement that can change the lives of millions of children.",
     technologies: ["Html", "Css", "Javascript , bootstrap"],
+    fullDesciption:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    detail:
+      "AlfaCamp is not simply a series of unconnected stories, but is in fact a movement that can change the lives of millions of children.",
+    technologies: ["Html", "Css", "Javascript"],
     liveDemo: "",
     sourceCode: "",
   },
@@ -30,7 +35,7 @@ const data = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     detail:
       "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    technologies: ["Html", "Css", "Javascript", "github", "Ruby", "Bootstrap"],
+    technologies: ["Html", "Css", "Javascript"],
     liveDemo: "",
     sourceCode: "",
   },
