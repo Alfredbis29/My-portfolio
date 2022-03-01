@@ -178,11 +178,9 @@
     margin-bottom: 2rem;
     font-size: 18px;
   }
-
   .main-container .links .btn span:nth-child(1) {
     margin-right: 2rem;
   }
-
   .card-popup-window .main-container .portfolio-img img {
     max-width: 480px;
   }
@@ -192,11 +190,9 @@
   .card-popup-window .main-container .portfolio-img img {
     max-width: 90%;
   }
-
   .card-popup-window .main-container .links .btn {
     padding: 1rem 1.4rem;
   }
-
   .card-popup-window .main-container .languages li {
     padding: 0.12rem 0.75rem;
     background-color: #ebebff;
@@ -208,13 +204,11 @@
 
 @media screen and (min-width: 768px) {
   .card-popup-window .main-container .portfolio-img img {
-    max-width: 90%;
+    max-width: 100%;
   }
-
   .card-popup-window .main-container .links {
     justify-content: flex-start;
   }
-
   .card-popup-window .main-container .links .btn:first-child {
     margin-right: 2rem;
   }
@@ -224,25 +218,20 @@
   .card-popup-window .main-container {
     max-width: 800px;
   }
-
   .card-popup-window .main-container .title h2 {
     font-size: 36px;
   }
-
   .card-popup-window .main-container .portfolio-img img {
     max-width: 100%;
   }
-
   .card-popup-window .left-container {
     flex-direction: row;
     width: 100%;
   }
-
   .card-popup-window .detail {
     margin-bottom: 2rem;
     width: 55%;
   }
-
   .card-popup-window .about-links {
     width: 45%;
     display: flex;
@@ -250,18 +239,15 @@
     align-items: center;
     justify-content: flex-start;
   }
-
   .card-popup-window .about-links .links {
     justify-content: center;
     align-items: center;
   }
-
   .card-popup-window .about-links .links .btn {
     margin: 0;
     padding: 1rem 2rem;
     font-size: 14px;
   }
-
   .card-popup-window .about-links .links .btn:first-child {
     margin-right: 0.9rem;
   }
