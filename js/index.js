@@ -1,6 +1,6 @@
-import data from "./data.js";
+import data from './data.js';
 
-const works = document.querySelector(".works");
+const works = document.querySelector('.works');
 data.forEach((card) => {
   works.innerHTML += `<li class="card-work">
   <a data-index-number=${card.id} class="portfolio-img" href="#">
@@ -24,11 +24,9 @@ data.forEach((card) => {
     </div>
     <ul class="languages">
     ${(function technoUsed() {
-      return card.technologies
-        .map((technology) => `<li><a href="#">${technology}</a></li>`)
-        .join("");
-    })()}
-
+    return card.technologies.map((technology) => `<li><a href="#">${technology}</a></li>`).join('');
+  }())}
+  
     </ul>
     <div class="see-project">
       <a class="btn" data-index-number=${card.id} href="">See Project</a>
@@ -39,38 +37,24 @@ data.forEach((card) => {
 
 // POPUP WINDOW
 
-const cardPopupWindow = document.querySelector(".card-popup-window");
-const seeProjectBtn = document.querySelectorAll(".see-project .btn");
-const seeProjectImg = document.querySelectorAll(".card-work .portfolio-img");
-const closedWind = document.querySelector(
-  ".card-popup-window .popup-main-container .main-container .close"
-);
+const cardPopupWindow = document.querySelector('.card-popup-window');
+const seeProjectBtn = document.querySelectorAll('.see-project .btn');
+const seeProjectImg = document.querySelectorAll('.card-work .portfolio-img');
+const closedWind = document.querySelector('.card-popup-window .popup-main-container .main-container .close');
 
 const arr = [seeProjectBtn, seeProjectImg];
 arr.forEach((item) => {
   item.forEach((link) => {
-    link.addEventListener("click", (e) => {
+    link.addEventListener('click', (e) => {
       e.preventDefault();
-      cardPopupWindow.classList.add("open-pop-up");
-      const filteredCard = data.filter(
-        (card) => card.id === Number(link.dataset.indexNumber)
-      );
-      const title = document.querySelector(
-        ".card-popup-window .popup-main-container .main-container .title h2"
-      );
-      const info = document.querySelectorAll(
-        ".card-popup-window .main-container .info span"
-      );
-      const img = document.querySelector(
-        ".card-popup-window .main-container .portfolio-img img"
-      );
-      const detail = document.querySelector(
-        ".card-popup-window .main-container .detail p"
-      );
-      const techno = document.querySelector("#lang");
-      const links = document.querySelectorAll(
-        ".card-popup-window .main-container .links a"
-      );
+      cardPopupWindow.classList.add('open-pop-up');
+      const filteredCard = data.filter((card) => card.id === Number(link.dataset.indexNumber));
+      const title = document.querySelector('.card-popup-window .popup-main-container .main-container .title h2');
+      const info = document.querySelectorAll('.card-popup-window .main-container .info span');
+      const img = document.querySelector('.card-popup-window .main-container .portfolio-img img');
+      const detail = document.querySelector('.card-popup-window .main-container .detail p');
+      const techno = document.querySelector('#lang');
+      const links = document.querySelectorAll('.card-popup-window .main-container .links a');
 
       title.innerHTML = filteredCard[0].name;
       img.src = filteredCard[0].image;
@@ -91,9 +75,9 @@ arr.forEach((item) => {
         techno.removeChild(technologiesChild[index]);
       });
       filteredCard[0].technologies.forEach((item) => {
-        const techItem = document.createElement("li");
-        const techLink = document.createElement("a");
-        techLink.href = "#";
+        const techItem = document.createElement('li');
+        const techLink = document.createElement('a');
+        techLink.href = '#';
         techLink.innerText = item;
         techItem.appendChild(techLink);
         techno.appendChild(techItem);
@@ -104,6 +88,6 @@ arr.forEach((item) => {
   });
 });
 
-closedWind.addEventListener("click", () => {
-  cardPopupWindow.classList.remove("open-pop-up");
+closedWind.addEventListener('click', () => {
+  cardPopupWindow.classList.remove('open-pop-up');
 });
