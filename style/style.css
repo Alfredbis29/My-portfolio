@@ -265,7 +265,7 @@ li {
   text-align: left;
   color: #344563;
   padding: 0 2.5rem;
-  margin-top: 2.5rem;
+  margin: 2.5rem 0;
 }
 
 .headline .connect {
@@ -816,7 +816,7 @@ li {
   }
 
   .headline h1 {
-    padding-top: 15rem;
+    padding-top: 18rem;
     padding-left: 8rem;
   }
 
