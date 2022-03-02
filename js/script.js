@@ -47,7 +47,7 @@ const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const errorMess = document.querySelector('small');
 const userMessage = document.getElementById('message');
-const userName = document.getElementById('name');
+const userName = document.getElementById('n');
 const submitBtn = document.querySelector('#submit');
 const message = [];
 
