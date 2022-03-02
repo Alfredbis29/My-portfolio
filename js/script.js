@@ -67,25 +67,16 @@ form.addEventListener('submit', (e) => {
   const emailValue = email.value;
   if (emailValue === '') {
     message.push('The Email must not be empty');
-  } if (emailValue !== emailValue.toLowerCase()) {
+  }
+  if (emailValue !== emailValue.toLowerCase()) {
     message.push('The email must be in lowercase');
-  } if (message.length > 0) {
+  }
+  if (message.length > 0) {
     e.preventDefault();
     errorMess.innerText = message.join(',');
     errorMess.classList.add('show-message');
   }
 });
-window.addEventListener('load', (e) => {
-  const getData = JSON.parse(localStorage.getItem('data'));
-  userName.value = getData.name;
-  email.value = getData.email;
-  userMessage.value = getData.message;
-  if (e.target.value !== e.target.value.toLowerCase()) {
-    submitBtn.classList.add('disabled');
-    submitBtn.classList.remove('hover');
-  }
-});
-
 email.addEventListener('input', (e) => {
   if (e.target.value !== e.target.value.toLowerCase()) {
     submitBtn.classList.add('disabled');
