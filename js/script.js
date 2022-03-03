@@ -74,7 +74,7 @@ form.addEventListener("submit", (e) => {
   if (message.length > 0) {
     e.preventDefault();
     errorMess.innerText = message.join(",");
-    errorMess.classList.add("show-messag");
+    errorMess.classList.add("show-message");
   }
 });
 window.addEventListener("load", (e) => {
