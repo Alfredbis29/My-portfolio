@@ -24,7 +24,9 @@ data.forEach((card) => {
     </div>
     <ul class="languages">
     ${(function technoUsed() {
-    return card.technologies.map((technology) => `<li><a href="#">${technology}</a></li>`).join('');
+    return card.technologies
+      .map((technology) => `<li><a href="#">${technology}</a></li>`)
+      .join('');
   }())}
   
     </ul>
@@ -40,7 +42,9 @@ data.forEach((card) => {
 const cardPopupWindow = document.querySelector('.card-popup-window');
 const seeProjectBtn = document.querySelectorAll('.see-project .btn');
 const seeProjectImg = document.querySelectorAll('.card-work .portfolio-img');
-const closedWind = document.querySelector('.card-popup-window .popup-main-container .main-container .close');
+const closedWind = document.querySelector(
+  '.card-popup-window .popup-main-container .main-container .close',
+);
 
 const arr = [seeProjectBtn, seeProjectImg];
 arr.forEach((item) => {
@@ -48,13 +52,25 @@ arr.forEach((item) => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
       cardPopupWindow.classList.add('open-pop-up');
-      const filteredCard = data.filter((card) => card.id === Number(link.dataset.indexNumber));
-      const title = document.querySelector('.card-popup-window .popup-main-container .main-container .title h2');
-      const info = document.querySelectorAll('.card-popup-window .main-container .info span');
-      const img = document.querySelector('.card-popup-window .main-container .portfolio-img img');
-      const detail = document.querySelector('.card-popup-window .main-container .detail p');
+      const filteredCard = data.filter(
+        (card) => card.id === Number(link.dataset.indexNumber),
+      );
+      const title = document.querySelector(
+        '.card-popup-window .popup-main-container .main-container .title h2',
+      );
+      const info = document.querySelectorAll(
+        '.card-popup-window .main-container .info span',
+      );
+      const img = document.querySelector(
+        '.card-popup-window .main-container .portfolio-img img',
+      );
+      const detail = document.querySelector(
+        '.card-popup-window .main-container .detail p',
+      );
       const techno = document.querySelector('#lang');
-      const links = document.querySelectorAll('.card-popup-window .main-container .links a');
+      const links = document.querySelectorAll(
+        '.card-popup-window .main-container .links a',
+      );
 
       title.innerHTML = filteredCard[0].name;
       img.src = filteredCard[0].image;
