@@ -51,7 +51,7 @@ const userName = document.getElementById('name');
 const submitBtn = document.querySelector('#submit');
 const message = [];
 
-[userName, email, userName].forEach((item) => {
+[userName, email, userMessage].forEach((item) => {
   item.addEventListener('input', () => {
     const data = {
       name: userName.value,
@@ -77,6 +77,17 @@ form.addEventListener('submit', (e) => {
     errorMess.classList.add('show-message');
   }
 });
+window.addEventListener('load', (e) => {
+  const getData = JSON.parse(localStorage.getItem('data'));
+  userName.value = getData.name;
+  email.value = getData.email;
+  userMessage.value = getData.message;
+  if (e.target.value !== e.target.value.toLowerCase()) {
+    submitBtn.classList.add('disabled');
+    submitBtn.classList.remove('hover');
+  }
+});
+
 email.addEventListener('input', (e) => {
   if (e.target.value !== e.target.value.toLowerCase()) {
     submitBtn.classList.add('disabled');
