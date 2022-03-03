@@ -51,7 +51,7 @@ const userName = document.getElementById('name');
 const submitBtn = document.querySelector('#submit');
 const message = [];
 
-[userName, email, userName].forEach((item) => {
+[userName, email, userMessage].forEach((item) => {
   item.addEventListener('input', () => {
     const data = {
       name: userName.value,
