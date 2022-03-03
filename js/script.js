@@ -58,6 +58,10 @@ const message = [];
       email: email.value,
       message: userMessage.value,
     };
+
+    // if (userName.value.length < 5) {
+    //   userName.value = "Not a valid name";
+    // }
     const dataStored = JSON.stringify(data);
     localStorage.setItem('data', dataStored);
   });
