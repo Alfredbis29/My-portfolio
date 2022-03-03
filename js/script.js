@@ -68,7 +68,7 @@ form.addEventListener('submit', (e) => {
   if (emailValue === '') {
     message.push('The Email must not be empty');
   }
-  if (emailValue === emailValue.toLowerCase()) {
+  if (emailValue !== emailValue.toLowerCase()) {
     message.push('The email must be in lowercase');
   }
   if (message.length > 0) {
