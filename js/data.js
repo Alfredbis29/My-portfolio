@@ -15,7 +15,7 @@ const data = [
       'AlfaCamp is not simply a series of unconnected stories, but is in fact a movement that can change the lives of millions of children.',
     technologies: ['Html', 'Css', 'Javascript', 'bootstrap'],
     liveDemo: 'https://alfredbis29.github.io/Capston-Project/',
-    sourceCode: 'git@github.com:Alfredbis29/Capston-Project.git',
+    sourceCode: 'https://github.com/Alfredbis29/Capston-Project',
   },
   {
     id: 3,
