@@ -2,7 +2,7 @@
 const data = [
   {
     id: 2,
-    image: 'images/elvivo.jpeg',
+    image: 'images/capstone-project.png',
     name: 'AlfaCamp',
     description: {
       type: 'Help street children',
@@ -14,6 +14,8 @@ const data = [
     detail:
       'AlfaCamp is not simply a series of unconnected stories, but is in fact a movement that can change the lives of millions of children.',
     technologies: ['Html', 'Css', 'Javascript', 'bootstrap'],
+    liveDemo: 'https://alfredbis29.github.io/Capston-Project/',
+    sourceCode: 'git@github.com:Alfredbis29/Capston-Project.git',
   },
   {
     id: 3,
@@ -29,8 +31,8 @@ const data = [
     detail:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['Html', 'Css', 'Javascript', 'github', 'Ruby', 'Bootstrap'],
-    liveDemo: 'https://alfredbis29.github.io/Capston-Project/',
-    sourceCode: 'git@github.com:Alfredbis29/Capston-Project.git',
+    liveDemo: '',
+    sourceCode: '',
   },
   {
     id: 4,
