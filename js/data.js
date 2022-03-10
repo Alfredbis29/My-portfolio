@@ -2,7 +2,7 @@
 const data = [
   {
     id: 2,
-    image: 'images/elvivo.jpeg',
+    image: 'images/capstone-project.png',
     name: 'AlfaCamp',
     description: {
       type: 'Help street children',
