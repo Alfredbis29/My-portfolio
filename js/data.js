@@ -29,8 +29,8 @@ const data = [
     detail:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['Html', 'Css', 'Javascript', 'github', 'Ruby', 'Bootstrap'],
-    liveDemo: '',
-    sourceCode: '',
+    liveDemo: 'https://alfredbis29.github.io/Capston-Project/',
+    sourceCode: 'git@github.com:Alfredbis29/Capston-Project.git',
   },
   {
     id: 4,
