@@ -19,12 +19,12 @@ const data = [
   },
   {
     id: 3,
-    image: 'images/Portfolio_3.png',
-    name: 'Facebook 360',
+    image: 'images/movie.png',
+    name: 'TVShow24',
     description: {
       type: 'CANOPY',
       interface: 'Backend Dev',
-      year: 2015,
+      year: 2022,
     },
     fullDesciption:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
