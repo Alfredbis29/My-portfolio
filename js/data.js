@@ -31,8 +31,8 @@ const data = [
     detail:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['Html', 'Css', 'Javascript', 'github', 'Ruby', 'Bootstrap'],
-    liveDemo: '',
-    sourceCode: '',
+    liveDemo: 'https://magenta-fudge-30ff9c.netlify.app/',
+    sourceCode: 'https://git@github.com:Alfredbis29/TVShow24.git',
   },
   {
     id: 4,
