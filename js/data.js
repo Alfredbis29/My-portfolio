@@ -27,12 +27,12 @@ const data = [
       year: 2022,
     },
     fullDesciption:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      'MovieShow is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of Activities.',
     detail:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['Html', 'Css', 'Javascript', 'github', 'Ruby', 'Bootstrap'],
+      'MovieShow is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of Activities.',
+    technologies: ['Html', 'Css', 'Javascript', 'github', 'APIs'],
     liveDemo: 'https://magenta-fudge-30ff9c.netlify.app/',
-    sourceCode: 'https://git@github.com:Alfredbis29/TVShow24.git',
+    sourceCode: 'https://github.com/Alfredbis29/TVShow24',
   },
   {
     id: 4,
