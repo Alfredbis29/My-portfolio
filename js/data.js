@@ -56,9 +56,9 @@ const data = [
     image: 'images/math.png',
     name: 'Math-Magician',
     description: {
-      type: 'CANOPY',
-      interface: 'Backend Dev',
-      year: 2015,
+      type: 'MATH OPERATION',
+      interface: 'Frontend',
+      year: 2022,
     },
     fullDesciption:
       'Math-Magician is a web-App Calculator which allows people to do math operations more easily. For example: add, subtract, multiply, and divide. ',
